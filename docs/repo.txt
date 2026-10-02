@@ -1,0 +1,5 @@
+Progetto 1: https://github.com/LucaA0111/ProgettiMCS/tree/main
+Progetto 2: https://github.com/SnowGlobe5/mcs_projects/tree/main/1bis
+Progetto 3: https://github.com/VR3ED/Easy_Matrix
+Progetto 4 (Programmatori): https://github.com/fdila/linear-solver-comparison
+Progetto 5: https://github.com/FerrarioChristian/iterative-linear-solver/

@@ -1,0 +1,124 @@
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{Tol} & \textbf{Metodo} & \textbf{Numero iterazioni} & \textbf{Tempo (s)} & \textbf{Errore relativo} \\
+        \hline
+        $10^{-4}$ & Jacobi & 115 & 0.0142 & $1.77 \cdot 10^{-3}$ \\
+                  & Gauss-Seidel & 9 & 0.2141 & $1.82 \cdot 10^{-2}$ \\
+                  & Gradient & 143 & 0.0187 & $3.46 \cdot 10^{-2}$ \\
+                  & Conjugate Gradient & 49 & 0.0063 & $2.08 \cdot 10^{-2}$ \\
+        \hline
+        $10^{-6}$ & Jacobi & 181 & 0.0226 & $1.80 \cdot 10^{-5}$ \\
+                  & Gauss-Seidel & 17 & 0.4066 & $1.30 \cdot 10^{-4}$ \\
+                  & Gradient & 3577 & 0.4600 & $9.68 \cdot 10^{-4}$ \\
+                  & Conjugate Gradient & 134 & 0.0174 & $2.55 \cdot 10^{-5}$ \\
+        \hline
+        $10^{-8}$ & Jacobi & 247 & 0.0304 & $1.82 \cdot 10^{-7}$ \\
+                  & Gauss-Seidel & 24 & 0.5750 & $1.71 \cdot 10^{-6}$ \\
+                  & Gradient & 8233 & 1.0599 & $9.82 \cdot 10^{-6}$ \\
+                  & Conjugate Gradient & 177 & 0.0231 & $1.32 \cdot 10^{-7}$ \\
+        \hline
+        $10^{-10}$ & Jacobi & 313 & 0.0384 & $1.85 \cdot 10^{-9}$ \\
+                  & Gauss-Seidel & 31 & 0.7422 & $2.25 \cdot 10^{-8}$ \\
+                  & Gradient & 12919 & 1.6756 & $9.82 \cdot 10^{-8}$ \\
+                  & Conjugate Gradient & 200 & 0.0295 & $1.20 \cdot 10^{-9}$ \\
+        \hline
+    \end{tabular}
+    \caption{Risultati numerici per spa1}
+\end{table}
+
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{Tol} & \textbf{Metodo} & \textbf{Numero iterazioni} & \textbf{Tempo (s)} & \textbf{Errore relativo} \\
+        \hline
+        $10^{-4}$ & Jacobi & 36 & 0.0498 & $1.77 \cdot 10^{-3}$ \\
+                  & Gauss-Seidel & 5 & 1.0700 & $2.60 \cdot 10^{-3}$ \\
+                  & Gradient & 161 & 0.1989 & $1.81 \cdot 10^{-2}$ \\
+                  & Conjugate Gradient & 42 & 0.0543 & $9.82 \cdot 10^{-3}$ \\
+        \hline
+        $10^{-6}$ & Jacobi & 57 & 0.0670 & $1.67 \cdot 10^{-5}$ \\
+                  & Gauss-Seidel & 8 & 1.7256 & $5.14 \cdot 10^{-5}$ \\
+                  & Gradient & 1949 & 2.3218 & $6.69 \cdot 10^{-4}$ \\
+                  & Conjugate Gradient & 122 & 0.1482 & $1.20 \cdot 10^{-4}$ \\
+        \hline
+        $10^{-8}$ & Jacobi & 78 & 0.0873 & $1.57 \cdot 10^{-7}$ \\
+                  & Gauss-Seidel & 12 & 2.5786 & $2.79 \cdot 10^{-7}$ \\
+                  & Gradient & 5087 & 6.0056 & $6.87 \cdot 10^{-6}$ \\
+                  & Conjugate Gradient & 196 & 0.2238 & $5.59 \cdot 10^{-7}$ \\
+        \hline
+        $10^{-10}$ & Jacobi & 99 & 0.1071 & $1.48 \cdot 10^{-9}$ \\
+                  & Gauss-Seidel & 15 & 3.2689 & $5.57 \cdot 10^{-9}$ \\
+                  & Gradient & 8285 & 9.6796 & $6.94 \cdot 10^{-8}$ \\
+                  & Conjugate Gradient & 240 & 0.2841 & $5.32 \cdot 10^{-9}$ \\
+        \hline
+    \end{tabular}
+    \caption{Risultati numerici per spa2}
+\end{table}
+
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{Tol} & \textbf{Metodo} & \textbf{Numero iterazioni} & \textbf{Tempo (s)} & \textbf{Errore relativo} \\
+        \hline
+        $10^{-4}$ & Jacobi & 1314 & 0.0272 & $3.54 \cdot 10^{-3}$ \\
+                  & Gauss-Seidel & 659 & 1.8199 & $3.51 \cdot 10^{-3}$ \\
+                  & Gradient & 890 & 0.0228 & $2.70 \cdot 10^{-3}$ \\
+                  & Conjugate Gradient & 38 & 0.0009 & $4.08 \cdot 10^{-5}$ \\
+        \hline
+        $10^{-6}$ & Jacobi & 2433 & 0.0423 & $3.54 \cdot 10^{-5}$ \\
+                  & Gauss-Seidel & 1218 & 3.2280 & $3.53 \cdot 10^{-5}$ \\
+                  & Gradient & 1612 & 0.0351 & $2.71 \cdot 10^{-5}$ \\
+                  & Conjugate Gradient & 45 & 0.0014 & $3.73 \cdot 10^{-7}$ \\
+        \hline
+        $10^{-8}$ & Jacobi & 3552 & 0.0668 & $3.54 \cdot 10^{-7}$ \\
+                  & Gauss-Seidel & 1778 & 4.7280 & $3.52 \cdot 10^{-7}$ \\
+                  & Gradient & 2336 & 0.0487 & $2.70 \cdot 10^{-7}$ \\
+                  & Conjugate Gradient & 53 & 0.0011 & $2.83 \cdot 10^{-9}$ \\
+        \hline
+        $10^{-10}$ & Jacobi & 4671 & 0.0878 & $3.54 \cdot 10^{-9}$ \\
+                  & Gauss-Seidel & 2338 & 6.2791 & $3.51 \cdot 10^{-9}$ \\
+                  & Gradient & 3058 & 0.0667 & $2.71 \cdot 10^{-9}$ \\
+                  & Conjugate Gradient & 59 & 0.0013 & $2.19 \cdot 10^{-11}$ \\
+        \hline
+    \end{tabular}
+    \caption{Risultati numerici per vem1}
+\end{table}
+
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{Tol} & \textbf{Metodo} & \textbf{Numero iterazioni} & \textbf{Tempo (s)} & \textbf{Errore relativo} \\
+        \hline
+        $10^{-4}$ & Jacobi & 1927 & 0.0585 & $4.97 \cdot 10^{-3}$ \\
+                  & Gauss-Seidel & 965 & 4.0953 & $4.95 \cdot 10^{-3}$ \\
+                  & Gradient & 1308 & 0.0380 & $3.81 \cdot 10^{-3}$ \\
+                  & Conjugate Gradient & 47 & 0.0021 & $5.73 \cdot 10^{-5}$ \\
+        \hline
+        $10^{-6}$ & Jacobi & 3676 & 0.0942 & $4.97 \cdot 10^{-5}$ \\
+                  & Gauss-Seidel & 1840 & 7.4654 & $4.94 \cdot 10^{-5}$ \\
+                  & Gradient & 2438 & 0.0614 & $3.79 \cdot 10^{-5}$ \\
+                  & Conjugate Gradient & 56 & 0.0016 & $4.74 \cdot 10^{-7}$ \\
+        \hline
+        $10^{-8}$ & Jacobi & 5425 & 0.1174 & $4.97 \cdot 10^{-7}$ \\
+                  & Gauss-Seidel & 2714 & 10.8939 & $4.96 \cdot 10^{-7}$ \\
+                  & Gradient & 3566 & 0.0898 & $3.81 \cdot 10^{-7}$ \\
+                  & Conjugate Gradient & 66 & 0.0019 & $4.30 \cdot 10^{-9}$ \\
+        \hline
+        $10^{-10}$ & Jacobi & 7174 & 0.1560 & $4.96 \cdot 10^{-9}$ \\
+                  & Gauss-Seidel & 3589 & 14.3936 & $4.95 \cdot 10^{-9}$ \\
+                  & Gradient & 4696 & 0.1180 & $3.80 \cdot 10^{-9}$ \\
+                  & Conjugate Gradient & 74 & 0.0021 & $2.25 \cdot 10^{-11}$ \\
+        \hline
+    \end{tabular}
+    \caption{Risultati numerici per vem2}
+\end{table}
+
+

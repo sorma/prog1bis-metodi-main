@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "linear-iterative-solvers"
+dynamic = ["version"]
+description = "Linear iterative solvers for symmetric positive definite linear systems (Jacobi, Gauss-Seidel, Gradient, Conjugate Gradient)."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [
+    { name = "MCS Student", email = "student@example.com" },
+]
+keywords = ["linear-algebra", "linear-iterative-solvers", "sparse-matrices", "numerical-methods"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+]
+
+[project.urls]
+Homepage = "https://github.com/example/linear-iterative-solvers"
+Repository = "https://github.com/example/linear-iterative-solvers"
+
+[tool.hatch.version]
+path = "src/linear_iterative_solvers/_version.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/linear_iterative_solvers"]

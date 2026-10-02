@@ -1,0 +1,4 @@
+-e ./linear_iterative_solvers_lib
+
+matplotlib>=3.7
+pandas>=2.0
